@@ -14,9 +14,7 @@ Gem::Specification.new do |spec|
     f.match(%r{^(_(layouts)/|(README)((\.(html|txt|md|markdown)|$)))}i)
   end
 
-  spec.files << [
-    "_config.yml"
-  ]
+#  spec.files << "_config.yml"
 
   spec.add_runtime_dependency "jekyll"
 
