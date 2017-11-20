@@ -1,0 +1,25 @@
+
+title: Jekyll Theme for Elementory
+url: localhost:4000
+
+timezone: Europe/Copenhagen
+
+author:
+  name: Test
+  tags:
+    - A
+    - B
+
+stylus:
+  compress: false
+  path: _stylus
+
+exclude:
+- README.md
+- LICENSE.txt
+- Gemfile*
+- "*.gemspec"
+
+permalink: /:title
+
+plugins_dir: _plugins
