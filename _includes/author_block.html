@@ -1,0 +1,9 @@
+<img src="{{ site.path }}/assets/images/authorphoto.png" class="circle" alt="userphoto" style="width:200px">
+
+<div class="nameLineTag">
+	<div id="name" style="font-size: {{ include.size | default: 100 }}px">{{ site.data.author.name }}</div>
+	<div id="Line-nameTag"></div>
+	{% for tag in site.data.author.tags %}
+	<a id="tag-nameLine" href="url">{{ tag }}</a>
+	{% endfor %}
+</div>

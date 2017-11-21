@@ -10,6 +10,10 @@
 </head>
 <body>
 
+{% if page.author_block %}
+{% include author_block.html size=page.author_block.size %}
+{% endif %}
+
 <div id="content">
 	{{ content }}
 </div>
