@@ -1,10 +1,10 @@
 *.gem
 .bundle
-.sass-cache
 _site
-# Gemfile.lock
 
+# Mac
 .DS_Store
+
 # Vim
 *.sw?
 *~
