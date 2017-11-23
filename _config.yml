@@ -13,7 +13,7 @@ exclude:
 - Gemfile*
 - "*.gemspec"
 - .travis.yml
-- vendor/bundle
+- vendor
 
 permalink: /:slug/
 
