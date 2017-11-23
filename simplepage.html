@@ -3,7 +3,7 @@ layout: default
 title: Simple page
 ---
 <div class="simplepage">
-	<img src="{{ site.path | append: site.data.author.image }}" class="image">
+	<img src="{{ site.data.author.image | relative_url }}" class="image">
 	<div class="container">
 		<div class="title">
 			<h1 class="main">{{ site.data.author.page.title }}</h1>

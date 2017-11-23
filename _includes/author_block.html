@@ -1,12 +1,12 @@
 <div class="author_block">
-	<img src="{{ site.path | append: site.data.author.image }}" class="image" alt="Photo of {{ site.data.author.name }}">
+	<img src="{{ site.data.author.image | relative_url }}" class="image" alt="Photo of {{ site.data.author.name }}">
 
 	<div class="holder">
 		<div class="name" style="font-size: {{ include.size | default: 100 }}px">{{ site.data.author.name }}</div>
 		<div class="line"></div>
 		<div class="tag_holder">
 		{% for tag in site.data.author.tags %}
-			<a class="tag" href="{{ site.path | append: tag.url }}">{{ tag.name }}</a>
+			<a class="tag" href="{{ tag.url | relative_url }}">{{ tag.name }}</a>
 		{% endfor %}
 		</div>
 	</div>
