@@ -1,6 +1,4 @@
 language: ruby
-# rvm:
-# - 2.3.3
 
 notifications:
   email: false
@@ -8,11 +6,13 @@ notifications:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  github_token: $GITHUB_TOKEN
   local_dir: _site
   on:
     branch: master
 
 script: bundle exec jekyll build
 
-# sudo: false
+env:
+  global:
+    secure: H+CNuBFAv0w9cgVcatJzCYdNHiyWog8kikT8QbcaIcprztLWO5C119mtZTWFPAddfGtBzzKmy0ElENjfnzsuHgUvh2y24qACwmeaNO6+Ckns9fWE8JKjBx4ByENRQC1xZmVAf2PXRnODGsc5fiDgUD1LxRpfxYwpDV80x9RUwRgWsLnz+Em6AakA+cHH/i9ieoWMPaEpuIsigVnY5BKpo/Hh8GMG7o0xZHmTRLuB7vEJGLniMiqczHrfuuBwPJCvQr6j4BdbxfccEibb680GbVMvMHbPdMqemUmFJKGQS2EozNUfJ/m1C1LO0A9r5S93U+KWaLUjPDcFXFY1avGxgoKWPjsFZ2+vPo9zyDoegQM3PmqoXfp6nXaEnjntSALSlNUWEmuaNUBblmUQBbYZhtUu4g0BSzho1TuUr9M81ILO2keGY2lOO90YjKPLPzApuYNz2LGaaq4g60B8PbHpLwub9qerGMqAilgCN9ugMxfMKf63WRfkL7qrHKtC5fNqN4rL/plcZJrKq7pKVsBHJDR4sCjurOGwq1z3C+HoOy5CgOpa9+EJAgWanIjHmHLKk5UAheixbet+vfonJ0/v10frAq4uMHYRPwiKb7L7yCUy0hrrZks+0OJ0bdWRslEp218HlpW1uHLwraMoIlvh76k67TyqcvxZzI3L+ugiu2s=

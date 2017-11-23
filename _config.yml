@@ -1,6 +1,5 @@
 title: Jekyll Theme for Elementory
-url: http://localhost:4000
-baseurl:
+baseurl: /jekyll-theme-elementory
 
 timezone: Europe/Copenhagen
 
@@ -13,6 +12,7 @@ exclude:
 - LICENSE.txt
 - Gemfile*
 - "*.gemspec"
+- .travis.yml
 
 permalink: /:slug/
 
