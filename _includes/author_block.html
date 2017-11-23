@@ -1,9 +1,13 @@
-<img src="{{ site.path }}/assets/images/authorphoto.png" class="circle" alt="userphoto" style="width:200px">
+<div class="author_block">
+	<img src="{{ site.path | append: site.data.author.image }}" class="image" alt="Photo of {{ site.data.author.name }}">
 
-<div class="nameLineTag">
-	<div id="name" style="font-size: {{ include.size | default: 100 }}px">{{ site.data.author.name }}</div>
-	<div id="Line-nameTag"></div>
-	{% for tag in site.data.author.tags %}
-	<a id="tag-nameLine" href="url">{{ tag }}</a>
-	{% endfor %}
+	<div class="holder">
+		<div class="name" style="font-size: {{ include.size | default: 100 }}px">{{ site.data.author.name }}</div>
+		<div class="line"></div>
+		<div class="tag_holder">
+		{% for tag in site.data.author.tags %}
+			<a class="tag" href="{{ site.path | append: tag.url }}">{{ tag.name }}</a>
+		{% endfor %}
+		</div>
+	</div>
 </div>

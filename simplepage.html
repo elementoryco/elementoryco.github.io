@@ -2,18 +2,21 @@
 layout: default
 title: Simple page
 ---
-<img src="{{ site.path }}/assets/images/picture.jpg" id="image">
-<div id="container">
-	<div id="title">
-		<h1 id="main">My page</h1>
-		<hr id="bar">
-	</div>
-	<div id="info">
-		<h1 id="sub">Pages:</h1>
-		<hr id="subbar">
-		<a href="https://www.facebook.com/" id="link">Facebook</a> </br>
-		<a href="https://www.twitter.com/" id="link">Twitter</a> </br>
-		<a href="https://www.instagram.com/" id="link">Instagram</a> </br>
-		<a href="https://www.elementory.co/" id="link">Elementory</a> </br>
+<div class="simplepage">
+	<img src="{{ site.path | append: site.data.author.image }}" class="image">
+	<div class="container">
+		<div class="title">
+			<h1 class="main">{{ site.data.author.page.title }}</h1>
+			<div class="bar"></div>
+		</div>
+		<div class="info">
+			<h1 class="sub">Pages:</h1>
+			<div class="subbar"></div>
+			<div class="links">
+			{% for link in site.data.author.social_links %}
+				<a href="{{ link.url }}" class="link">{{ link.name }}</a><br />
+			{% endfor %}
+			</div>
+		</div>
 	</div>
 </div>

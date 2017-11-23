@@ -1,6 +1,45 @@
-name: Test name
+name: Person
 description:
   Test description about the author, whomever they might be!
+
+
+image: /assets/images/author.jpg
+
+
 tags:
-  - Tag A
-  - And tag B
+-
+  url: /taga
+  name: Tag A
+-
+  url: /tagb
+  name: And tag B
+
+
+social_links:
+-
+  url: http://www.facebook.com/person
+  name: Facebook
+-
+  url: http://www.twitter.com/person
+  name: Twitter
+-
+  url: http://www.instagram.com/person
+  name: Instragram
+-
+  url: http://person.elementory.co/
+  name: Elementory
+
+
+links:
+-
+  name: Email
+  url: mailto:test@gmail.com
+  image: /assets/images/lettericon.png
+-
+  name: Instragram
+  url: http://www.instagram.com/person
+  image: /assets/images/ig_logo.png
+
+
+page:
+  title: My page
