@@ -14,7 +14,7 @@ deploy:
   github_token: $GITHUB_TOKEN
   local_dir: _site
   on:
-    branch: code
+    branch: release
 
 script: bundle exec jekyll build
 
