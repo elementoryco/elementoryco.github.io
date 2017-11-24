@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/elementoryco/elementoryco.github.io.svg?branch=release)](https://travis-ci.org/elementoryco/elementoryco.github.io)
+
 # elementoryco.github.io
 
 Elementory's github.io page
