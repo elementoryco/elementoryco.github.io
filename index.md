@@ -1,11 +1,14 @@
 ---
-layout: default
+layout: page
 title: Index
-author_block:
-  size: 70
-  slug: person2
 ---
 
-[About page]({{ "/about/" | relative_url }})
-[Test post]({{ "/test/" | relative_url }})
-[Simplepage]({{ "/simplepage/" | relative_url }})
+[Oliver's main page]({{ "/oliver/" | relative_url }})
+
+[Oliver's About page]({{ "/oliver/about/" | relative_url }})
+
+[Oliver's Test post]({{ "/oliver/p/test-post/" | relative_url }})
+
+[Thor's main page]({{ "/thor/" | relative_url }})
+
+[Thor's About page]({{ "/thor/about/" | relative_url }})

@@ -10,16 +10,8 @@
 </head>
 <body>
 
-{% if page.author_block %}
-	{% for author in site.data.authors %}
-		{% if page.author_block.slug == author.slug %}
-			{% include author_block.html size=page.author_block.size author=author %}
-		{% endif %}
-	{% endfor %}
-{% endif %}
-
 <div id="content">
-	{{ content }}
+	{{- content -}}
 </div>
 
 </body>

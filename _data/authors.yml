@@ -1,11 +1,7 @@
 -
-  slug: person1
-  name: Person
-  description:
-    Test description about the author, whomever they might be!
-
-
-  image: /assets/images/author.jpg
+  slug: oliver
+  name: Oliver
+  image: /assets/images/oliver.jpg
 
 
   tags:
@@ -17,44 +13,17 @@
     name: And tag B
 
 
-  social_links:
-  -
-    url: http://www.facebook.com/person
-    name: Facebook
-  -
-    url: http://www.twitter.com/person
-    name: Twitter
-  -
-    url: http://www.instagram.com/person
-    name: Instragram
-  -
-    url: http://person.elementory.co/
-    name: Elementory
-
-
   links:
   -
     name: Email
-    url: mailto:test@gmail.com
+    url: mailto:oliversolow@gmail.com
     image: /assets/images/lettericon.png
-  -
-    name: Instragram
-    url: http://www.instagram.com/person
-    image: /assets/images/ig_logo.png
-
-
-  page:
-    title: My page
 
 
 -
-  slug: person2
-  name: Person number two
-  description:
-    Test description about the author, whomever they might be!
-
-
-  image: /assets/images/author.jpg
+  slug: thor
+  name: Thor
+  image: /assets/images/thor.png
 
 
   tags:
@@ -62,19 +31,3 @@
     url: /tagc
     name: Tag C
 
-
-  social_links:
-  -
-    url: http://www.facebook.com/person
-    name: Facebook
-
-
-  links:
-  -
-    name: Email
-    url: mailto:test@gmail.com
-    image: /assets/images/lettericon.png
-
-
-  page:
-    title: My page
