@@ -11,8 +11,11 @@
 <body>
 
 {% if page.author_block %}
-{% include author_block.html size=page.author_block.size author=site.data.authors[0] %}
-{% include author_block.html size=page.author_block.size author=site.data.authors[1] %}
+	{% for author in site.data.authors %}
+		{% if page.author_block.slug == author.slug %}
+			{% include author_block.html size=page.author_block.size author=author %}
+		{% endif %}
+	{% endfor %}
 {% endif %}
 
 <div id="content">
