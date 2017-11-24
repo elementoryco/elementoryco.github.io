@@ -4,5 +4,3 @@ source "https://rubygems.org"
 
 gem "stylus"
 gem "jekyll"
-
-gemspec

@@ -1,8 +1,3 @@
-PATH
-  remote: .
-  specs:
-    jekyll-theme-elementory (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -55,9 +50,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler
   jekyll
-  jekyll-theme-elementory!
   stylus
 
 BUNDLED WITH

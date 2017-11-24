@@ -2,18 +2,19 @@
 layout: default
 title: Simple page
 ---
+{% assign author = site.data.authors[0] %}
 <div class="simplepage">
-	<img src="{{ site.data.author.image | relative_url }}" class="image">
+	<img src="{{ author.image | relative_url }}" class="image">
 	<div class="container">
 		<div class="title">
-			<h1 class="main">{{ site.data.author.page.title }}</h1>
+			<h1 class="main">{{ author.page.title }}</h1>
 			<div class="bar"></div>
 		</div>
 		<div class="info">
 			<h1 class="sub">Pages:</h1>
 			<div class="subbar"></div>
 			<div class="links">
-			{% for link in site.data.author.social_links %}
+			{% for link in author.social_links %}
 				<a href="{{ link.url }}" class="link">{{ link.name }}</a><br />
 			{% endfor %}
 			</div>

@@ -10,11 +10,11 @@ author_block:
 </div>
 
 <div class="about_links">
-	{% for link in site.data.author.links %}
+	{%- for link in site.data.author.links -%}
 	<a class="link" href="{{ link.url }}">
 		<img src="{{ link.image | relative_url }}">
 		<span>{{ link.name }}</span>
 	</a>
 	<br />
-	{% endfor %}
+	{%- endfor -%}
 </div>
