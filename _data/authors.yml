@@ -31,3 +31,13 @@
     url: /tagc
     name: Tag C
 
+-
+  slug: peter
+  name: Peter
+  image: /assets/images/peter.jpg
+
+
+  tags:
+  -
+    url: /petertag
+    name: Tag

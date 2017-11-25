@@ -4,7 +4,8 @@
 
 Elementory's github.io page
 
-The main branch is `release`! The `master` branch is used SOLELY for deployment to [elementoryco.github.io](https://elementoryco.github.io) by Travis-CI
+The main branch is `release`! The `master` branch is used SOLELY for deployment to [elementoryco.github.io](https://elementoryco.github.io) by Travis-CI!
+
 This is because Github disallows the usage of other branches than the master branch when using Github-Pages
 
 ## Installation
