@@ -10,6 +10,12 @@
 </head>
 <body>
 
+<form action="/search" method="GET" id="header">
+	<a href="" class="icon">E</a>
+	<input class="search_icon" type="submit" value="_">{{- nil -}}
+	<input type="text" value="" name="q" maxlength="64" class="search">
+</form>
+
 <div id="content">
 	{{- content -}}
 </div>

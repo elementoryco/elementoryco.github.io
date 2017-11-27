@@ -1,0 +1,52 @@
+size = 30px
+white = white
+grey = darken(white, 10%)
+black = black
+
+#header
+	font-size size
+	margin-bottom 2em
+	box-shadow 0 0 3em 0 black
+	background-color grey
+
+	*
+		height 1.45em
+
+	.icon
+		button()
+		float left
+		padding 0 1em
+		font-size 1.7em
+
+	.search_icon
+		clean-input()
+		link()
+		background white url('/assets/images/search.png') no-repeat center center
+		background-size contain
+		width 1em
+		margin .5em 0 .5em 1em
+		font-size 1em
+		color white
+		//text-align left
+		//white-space normal
+
+		&:focus + input
+			width 15em
+
+	.search
+		clean-input()
+		arial-black()
+		background-color white
+		margin .5em 1em .5em 0
+		font-size 1em
+		width 5em
+		transition width .5s
+		padding-right 0.5em
+
+		&:focus
+			width 15em
+		/*
+		&:-webkit-autofill
+			-webkit-box-shadow 0 0 0 30px white inset
+			-webkit-text-fill-color grey !important
+		*/

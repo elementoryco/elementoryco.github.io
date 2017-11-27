@@ -1,10 +1,27 @@
+comma-args(prop, args)
+	{prop}: s(join(',', args))
+
+
+vendors = webkit moz o ms official
+
 vendor(prop, args)
-	-webkit-{prop} args
-	-moz-{prop} args
-	-ms-{prop} args
-	-o-{prop} args
-	{prop} args
+	for v in vendors
+		if v == official
+			{prop}: args
+		else
+			-{v}-{prop}: args
 
-//border-radius()
-//	vendor('border-radius', arguments)
+box-shadow()
+	vendor('box-shadow', arguments)
 
+
+font_fallbacks = {
+	'Arial Black': 'Arial Black' Gadget sans-serif
+}
+
+font-family()
+	main_family = join(' ', arguments)
+	if main_family in font_fallbacks
+		comma-args('font-family', font_fallbacks[main_family])
+	else
+		comma-args('font-family', arguments)
