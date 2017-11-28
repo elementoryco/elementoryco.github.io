@@ -1,7 +1,5 @@
 ---
-layout: post
 title: ""
-author: peter
 image-name: Why does water evaporate at room temperature?
 ---
 ![{{ page.image-name }}](title.png "{{ page.image-name }}")

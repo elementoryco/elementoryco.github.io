@@ -1,9 +1,9 @@
 ---
 layout: about
-title: About Peter 
-author: peter 
+title: About Peter
+permalink: /:collection/:slug/
 ---
 
-Test description about Peter 
+Test description about Peter
 
 **a**

@@ -1,7 +1,5 @@
 ---
-layout: post
-title: A test post by Peter 
-author: oliver
+title: A test post by Peter
 ---
 
 Teeeest post!
