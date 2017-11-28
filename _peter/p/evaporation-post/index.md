@@ -29,7 +29,7 @@ There are two scales on which electromagnetic forces stick molecules together. F
 The following segment is a simple description of how the intermolecular forces act in the three states of matter. Our example will be for a material made of molecules. There are different materials like metals where it works different.
 When a substance of molecules is in the solid state the inter-molecular forces are strong enough to hold the molecules arranged in strict order, where all the identical molecules are holding in place by affecting each other with their electromagnetic force.
 
-![solid](/assets/images/evaporation_post/solid.png "the solid state")
+![solid](solid.png "the solid state")
 
 But then heat comes along. Heat, is basically just the particles of the substance shaking unorderly. This is valid for all materials - the average kinetic energy of particles rises proportionally with temperature. This shaking is a problem for the intermolecular forces because they are weak. As the shaking gets wilder the intermolecular forces have a tougher and tougher time holding the molecules arranged until they aren’t strong enough and the substance transitions to the liquid phase.
 
