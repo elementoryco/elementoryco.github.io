@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About Oliver
-author: oliver
+permalink: /:collection/:slug/
 
 links:
 -
