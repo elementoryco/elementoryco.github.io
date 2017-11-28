@@ -1,8 +1,6 @@
--
-  slug: oliver
+oliver:
   name: Oliver
   image: /assets/images/oliver.jpg
-
 
   tags:
   -
@@ -12,7 +10,6 @@
     url: /tagb
     name: And tag B
 
-
   links:
   -
     name: Email
@@ -20,22 +17,19 @@
     image: /assets/images/lettericon.png
 
 
--
-  slug: thor
+thor:
   name: Thor
   image: /assets/images/thor.png
-
 
   tags:
   -
     url: /tagc
     name: Tag C
 
--
-  slug: peter
+
+peter:
   name: Peter
   image: /assets/images/peter.jpg
-
 
   tags:
   -

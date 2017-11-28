@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About Thor
-author: thor
+permalink: /:collection/:slug/
 
 links:
 -
