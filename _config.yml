@@ -18,16 +18,35 @@ include:
 
 permalink: /:slug/
 
+
+collections:
+  peter:
+    output: true
+    permalink: /:collection/:path
+  oliver:
+    output: true
+    permalink: /:collection/:path
+  thor:
+    output: true
+    permalink: /:collection/:path
+
+
 defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  -
-    scope:
-      path: ""
-      type: "drafts"
-    values:
-      layout: "post"
+-
+  scope:
+    path: _oliver/p
+    type: oliver
+  values:
+    layout: post
+-
+  scope:
+    path: _peter/p
+    type: peter
+  values:
+    layout: post
+-
+  scope:
+    path: _thor/p
+    type: thor
+  values:
+    layout: post
