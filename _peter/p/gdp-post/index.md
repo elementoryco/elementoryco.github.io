@@ -4,7 +4,7 @@ title: Everything You Need To Know About GDP
 author: Peter
 ---
 
-![cartoon](/assets/images/gdp-post/frontpage.png "cartoon")
+![cartoon](frontpage.png "cartoon")
 
 When I hear people say “GDP” I kinda know what they’re talking about, but I realize that it is only a shallow understanding.  A thorough and simple explanation has never been given to me. 
 ### GDP (Gross Domestic Product) is the theoretical amount of money that all of the goods and services produced by someone somewhere in a period of time is worth.
@@ -21,7 +21,7 @@ Market value is the estimated amount for which a property should exchange on the
 
 But don’t we have a problem here? We all know how the kebab you buy in the central part of town is much more expensive than the one you buy in the less wealthy suburbs, and in both places transactions seem pretty fair and knowledgeable. So what would the market value of the kebab be?  
 
-![kebab](/assets/images/gdp-post/kebab.png "kebab")
+![kebab](kebab.png "kebab")
 
 These deviations in price are due to market inefficiency. Market inefficiency is a natural consequence of things like price of transport, local taxes and import duties, different perceived values, local differences in supply and demand and ultimately the diversity of humans and society. Market inefficiency causes different market prices (the price at which you can transact) in different places, but the market value remains the true underlying value of the product. The market price would equal the market value in a 100% efficient market. So to round off with the kebab. In the real world the market value of the kebab isn’t apparent only the market prices, so you would have to estimate the market value of the kebab. You would do that by guessing at what the price would be in a market adjusted for market inefficiency. The estimate would probably land somewhere in between the expensive kebab in the central part town and the price in the poor suburbs.
 
@@ -41,7 +41,7 @@ GDP of Norway in 2014: 499.82 billion USD
 
 GDP of India 2014: 2066,90 billion USD 
 
-![thefinanceshow](/assets/images/gdp-post/thefinanceshow.png "thefinanceshow")
+![thefinanceshow](thefinanceshow.png "thefinanceshow")
 
 Bruh… 
 
@@ -52,7 +52,7 @@ GDP is a measure of the size of an economy – how much it produces. By tweaking
 In the world we live in, money is a prime factor to your standard of living. Other factors like location and culture are also important, but money is definitely a game changer. This means that we can not only use GDP for comparing sizes of economies we can also use it for comparing standard of living in different places.
 Ok, so India’s GDP was larger than Norway’s GDP, so it’s obvious that we need to make a few tweaks if we want an idea of the wealth and standard of living of the average citizen. If we wanted to compare the standard of living in the two countries, then first of all we should divide by the countries’ populations. Then we get **GDP per capita**.
 
- ![formula](/assets/images/gdp-post/formula.png "formula")
+![formula](formula.png "formula")
 
 GDP per capita of Norway (2014): 67245.60 USD 
 
@@ -67,7 +67,7 @@ Purchasing power is how far a unit of currency gets you. For example, if you ima
 A purchasing power paired exchange rate is an exchange rate so that the dollar gets you just as far in India as it did in the US.  Or to generalize that: a purchasing power paired exchange rate results in amounts for which you could purchase the same basket of goods in the country you exchanged to as in the one you exchanged from.
 The relative version of the PPP exchange rate is calculated using this simple formula:
 
-![formula1](/assets/images/gdp-post/formula1.png "formula1")
+![formula1](formula1.png "formula1")
 
 S represents the purchasing power paired exchange rate
 
@@ -81,20 +81,20 @@ Price of big mac in US = $3.57
 
 Price of big mac in UK = £2,29 
 
-![formula2](/assets/images/gdp-post/formula2.png "formula2")
+![formula2](formula2.png "formula2")
 
 Let’s exchange £20 to dollars using the PPP exchange rate:
 
-![formula3](/assets/images/gdp-post/formula3.png "formula3")
+![formula3](formula3.png "formula3")
 
 Exchanging the other way, we divide by the PPP exchange rate.
 
-![formula4](/assets/images/gdp-post/formula4.png "formula4")
+![formula4](formula4.png "formula4")
 
 **GDP PPP per capita** is GDP per capita exchanged to the comparing currency (dollars) using **purchasing power paired exchange rates**. 
 This is a map of the world colored according to the size of the countries’ GDP per capita. Darker means higher GDP PPP per capita.
 
-![map](/assets/images/gdp-post/map.png "map")
+![map](map.png "map")
 
 As you can see, the map fits pretty well with our perception of where the standard of living is high and low – with some exceptions, for example Saudi Arabia. This is due to massive inequality – that can be adjusted for too using something called the Gini coefficient, but that’s for another day.
 
@@ -106,11 +106,11 @@ Last thing I want to cover in this post is **economic growth**. Referred to as �
 When comparing GDP over time it is useful to adjust for inflation (footnote: inflation is a sustained increase in the general price level in an economy over time). GDP adjusted for inflation is called **real GDP** - opposed to nominal GDP, which is the actual amount not adjusted in any way. Real GDP is superior when comparing over time because it eliminates the distorting effects of inflation.
 This graph shows UK real GDP per capita over time:
 
-![growthingdp](/assets/images/gdp-post/growthingdp.png "growthingdp")
+![growthingdp](growthingdp.png "growthingdp")
 
 And now this graph shows the **growth in real UK GDP** over time:
 
-![graph2](/assets/images/gdp-post/graph2.png "graph2")
+![graph2](graph2.png "graph2")
 
 This graph is useful for getting an idea of how the UK economy was developing at different times. Around 2008 it was going bad.
 
