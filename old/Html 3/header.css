@@ -1,0 +1,109 @@
+div.header {position:absolute;width:100%;left:0;top:0;}
+
+div.trigger {
+    top:6vw;
+    position: absolute;
+	width:21.5vw;}
+div.t1 {left:0;}
+div.t2 {left:21.5%;}
+div.t3 {left:57%;}
+div.t4 {left:78.5%;}
+
+/* div.trigger div */
+
+div.head1 {top: 20%;}
+div.head2 {top: -54.5%;}
+div.head3 {top: -129%;}
+
+div.under {
+    transition: top 0.5s ease;-webkit-transition: top 0.5s ease;
+    position: absolute;
+    width:21.5vw;
+    z-index:-1;}
+
+div.trigger:hover div.under {top:100%;}
+/* div.trigger div  end*/
+
+/* all "a" */
+a.head {
+    display:block;
+    color:#FFFFFF;
+    font-size:3vw;
+    height:4vw;
+    max-height:4vw;
+    text-decoration:none;
+    text-align:center;
+    padding:0.5vw 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    background: -webkit-linear-gradient(#909090, #707070);
+    background: -o-linear-gradient(#909090, #707070);
+    background: -moz-linear-gradient(#909090, #707070);
+    background: linear-gradient(#909090, #707070);}
+
+div.under a {
+    display:block;
+    color:#FFFFFF;
+    font-size:2.25vw;
+    text-decoration:none;
+    max-height:3vw;
+    height:3vw;
+    text-align:center;
+    padding:0.385vw 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    background:#707070;}
+
+a.head:hover {background:#909090;}
+div.under a:hover {background:#909090;}
+
+/* all "a" end */
+
+a.middle {
+    position:absolute;
+    height:14vw;
+    width:14vw;
+    left:42vw;
+    top:0;
+    display:block;
+    border-width: 1vw;
+    border-color: #FFFFFF;
+    border-radius: 50vw;
+    border-style: solid;
+    z-index:1;
+    background: -webkit-linear-gradient(#909090, #707070);
+    background: -o-linear-gradient(#909090, #707070);
+    background: -moz-linear-gradient(#909090, #707070);
+    background: linear-gradient(#909090, #707070);}
+
+a:hover.middle {background:#909090;}
+
+a.middle img {
+    width:80%;
+    height:80%;
+    left:10%;
+    top:10%;
+    position:absolute;}
+
+a:hover.middle img {-webkit-animation: middleimage 0.5s infinite alternate linear;animation: middleimage 0.5s infinite alternate linear;}
+
+@-webkit-keyframes middleimage {
+    from {width:80%;height:80%;left:10%;top:10%;}
+    to {width:90%;height:90%;left:5%;top:5%;}}
+
+@keyframes middleimage {
+    from {width:80%;height:80%;left:10%;top:10%;}
+    to {width:90%;height:90%;left:5%;top:5%;}}
+
+div.hidethings {
+    width:100%;
+    height: 6vw;
+    left:0;
+    top:0;
+    background:#ffffff;
+    position:absolute;}
+
+
+
+
+

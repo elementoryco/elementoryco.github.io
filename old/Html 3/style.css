@@ -1,0 +1,29 @@
+div.body {position:relative;top:13vw;left:0;word-wrap: break-word;word-break: keep-all;width:1000px;margin-left:auto;margin-right:auto;}
+
+
+div.content {width:600px;height:400px;float:left;}
+div.picture {width:400px;height:400px;float:left;}
+img.image {max-width:390px;border:5px ridge #909090;max-height:390px;}
+
+
+div.content2 {width:1000px;margin-bottom:100px;}
+
+p, h1,h2,h3,h4,h5,h6  {margin:0;font-family: Arial, Helvetica, sans-serif;font-weight: lighter;}
+h1 {font-size:28px;}
+h2 {font-size:22px;}
+h3 {font-size:17px;}
+h4 {font-size:12px;}
+h5 {font-size:11px;}
+h6 {font-size:10px;}
+hr {margin:5px 0 10px 0;}
+
+
+
+div.hidethings2 {
+	z-index:2;
+    width:100%;
+    height: 6vw;
+    left:0;
+    top:0;
+    background:#ffffff;
+    position:absolute;}
