@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Home - CubesElementory</title>
+		
+	    <meta name="description" content="CubesElementory&#39;s official website">
+	    <meta name="keywords" content="cubeselementory,mine,craft,minecraft">
+	    <meta name="author" content="MadsMTM,TheThorWorks">
+	    <style type="text/css"></style>
+
+	    <link rel="icon" href="./CubesElementory_files/icon.png" type="image/x-icon"> 
+	    <link rel="shortcut icon" href="./CubesElementory_files/icon.png" type="image/x-icon">
+
+	    <!--<link rel="stylesheet" type="text/css" href="./CubesElementory_files/bootstrap.min.css">-->
+	    <link rel="stylesheet" type="text/css" href="./CubesElementory_files/style.css">
+
+
+	    <script src="./CubesElementory_files/jquery.min.js"></script>
+	    <!--<script src="./CubesElementory_files/classie.js"></script>-->
+	    <!--<script src="./CubesElementory_files/collection.js"></script>-->
+	    <!--<script src="./CubesElementory_files/loadmaps.js"></script>-->
+
+
+	    <link href="./CubesElementory_files/fonts.txt" rel="stylesheet" type="text/css">
+	    <link href="http://fonts.googleapis.com/css?family=Asap" rel="stylesheet" type="text/css">
+	    <link href="http://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css">
+
+
+	    <script>
+			        
+	    	function init() {
+
+			    window.addEventListener('scroll', function(e){
+			    	// Declare Variabels
+			        var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+			            shrinkOn = 30,
+			            header = document.querySelector("#header"),
+			            headerBackground = document.querySelector("#header-background");
+
+			        // Check if the distance scrolled down is high enough
+			        if (distanceY > shrinkOn) {
+    					headerBackground.classList.add("movedown");
+    					header.classList.add("minimize");
+
+			        } else {
+    					headerBackground.classList.remove("movedown");
+    					header.classList.remove("minimize");
+
+			        }
+			    });
+			}
+	    </script>
+
+	</head>
+
+	<body onload="init()">
+
+
+	<!--<script>
+
+			$(document).ready(function() {
+				selectedPage.change("all");
+				allTransitionsComplete.change(true);
+
+				function getURLParameter(name) {
+					return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null
+				}
+
+				if (getURLParameter('sub') == 'info') {
+					selectedPage.change("info");
+					$("#map-container").empty();
+					var infoContain = document.getElementById('info-container').innerHTML;
+					$("#map-container").append(infoContain);
+				} else {
+					showMaps("all", false);
+				}
+				$("#show-all").click(function() {
+					showMaps("all", true);
+					// $("html, body").animate({ scrollTop: 0 }, "slow");
+				});
+				$("#nav-home").click(function() {
+					showMaps("all", true);
+					// $("html, body").animate({ scrollTop: 0 }, "slow");
+				});
+				$("#show-popular").click(function() {
+					showMaps("popular", true);
+					// $("html, body").animate({ scrollTop: 0 }, "slow");
+				});
+				$("#show-categories").click(function() {
+					showMaps("categories", true);
+				});
+				$('#nav-info').click(function() {
+					if ( navBar_infoHome == true ) {
+					showMaps("info", true);
+				}
+				});
+			});
+	</script>-->
+
+	<div id="header-background" class="">
+
+		<div id="header">
+			<h1><span class="header2">Cubes Elementory</span></h1>
+			<ul>
+				<li id="nav1"class="page-link"><a><img src="./CubesElementory_files/hover_file.png" id="drop_img1" />
+					<span>Thor</span></a></li>
+				<li id="nav2"class="page-link"><a><img src="./CubesElementory_files/hover_file.png" id="drop_img2" />
+					<span>Mads</span></a></li>
+				<li id="nav3"class="page-link"><a><img src="./CubesElementory_files/hover_file.png" id="drop_img3" />
+					<span>Oliver</span></a></li>
+			</ul>
+		</div>
+	</div>
+
+
+	<div id="drop1" class="drop-menu">
+		<h4>Minecraft</h4>
+		<ul>
+			<li><a href="https://minecraft.net/">Website</a></li>
+			<li><a href="https://minecraft.net/forum">Forum</a></li>
+		</ul>
+		<h4>Cubeworld</h4>
+		<ul>
+			<li><a href="https://picroma.com/">CUBEWORLD!</a></li>
+		</ul>
+	</div>
+
+	<div id="drop2" class="drop-menu">
+		<h4>Minecraft</h4>
+		<ul>
+			<li><a href="https://minecraft.net/">Website</a></li>
+			<li><a href="https://minecraft.net/forum">Forum</a></li>
+		</ul>
+		<h4>Cubeworld</h4>
+		<ul>
+			<li><a href="https://picroma.com/">CUBEWORLD!</a></li>
+		</ul>
+	</div>
+
+	<div id="drop3" class="drop-menu">
+		<h4>Minecraft</h4>
+		<ul>
+			<li><a href="https://minecraft.net/">Website</a></li>
+			<li><a href="https://minecraft.net/forum">Forum</a></li>
+		</ul>
+		<h4>Cubeworld</h4>
+		<ul>
+			<li><a href="https://picroma.com/">CUBEWORLD!</a></li>
+		</ul>
+	</div>
+
+	<script src="./CubesElementory_files/navbar.js"></script>
+	
+	<div id="container">
+		<div class="entry">
+			<div class="entry2">
+				<h3><span>An Amazing title</span></h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+		<div class="entry" style="margin-left:">
+			<div class="entry2">
+				<h3><span>An Amazing title 2</span></h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br/>And again<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+	</div>
+	<!--<div id="map-container">
+		<div class="map-entry">
+			<div class="map-entry2">
+				<h3>Hologram Parkour</h3>
+				<div class="players">1 player</div>
+				<img src="./CubesElementory_files/hologramparkour.png">
+				<p>Hologram Parkour is possibly the most challenging form of parkour, where you must look at the template, then jump to the next block, without seeing it. The map will keep track of how many seconds it has taken you, and how many attempts you have taken, so it is speedrunable!</p>
+				<a href="http://adf.ly/vDhaz"></a>
+				<center>
+					<a href="http://adf.ly/vDhaz">
+						<span class="downloadbutton">1.8 download</span>
+					</a>
+				</center>
+			</div>
+		</div>
+	</div>-->
+
+	<!--
+	<div id="info-container">
+		<div class="map-entry">
+			<div class="info-title">Info / Help</div>
+			<div class="info-subtitle">About this website</div>
+			<div class="info-p">This website is the home of all maps created by me, MrGarretto for the limitless sandbox game, Minecraft. I also maintain this website, and will be adding new content to it, over time. In addition to maps, I will also post some smaller projects that I work on, such as tools for minecraft, 'vanilla mods', and some random little games I create. If you have any problems, or suggestions, please tell me on Twitter, <a href="https://twitter.com/JustMrGarretto">@JustMrGarretto</a>.</div>
+			<div class="info-subtitle">How to install the Minecraft maps</div>
+			<div class="info-p">To install a map from this website:</div>
+			<div class="info-p">Download the map and unzip it. To unzip it you will need an archive manager. If you don't have one, I would recommend <a href="http://www.rarlab.com/">WinRAR</a>.</div>
+			<div class="info-p">Next, navigate to your '.minecraft' folder. Below are the ways to do this for a few different operating systems.</div>
+			<h5 class="info-os">Windows 7 and XP</h5>
+			<div class="info-os-desc">Click on the start orb, in the bottom left corner of the screen. In the search bar, type <span class="info-spec">%appdata%</span>. Click on the <span class="info-spec">.minecraft</span> folder. Find the <span class="info-spec">saves</span> folder, and click on it. Drag the downloaded, unzipped map into the saves folder and the map is installed!</div>
+			<h5 class="info-os">Mac OSX</h5>
+			<div class="info-os-desc">First, click open finder from your dock. Click <span class="info-spec">go</span> in the top bar, then <span class="info-spec">go to folder</span>. Now, type in <span class="info-spec">~/Library/Application Support/minecraft/saves</span>. Drag the downloaded, unzipped map into the saves folder and the map is installed!</div>
+			<h5 class="info-os">Windows 8</h5>
+			<div class="info-os-desc">Press the <span class="info-spec">windows key</span> + <span class="info-spec">r</span> on your keyboard. In the <span class="info-spec">run</span> box, type in <span class="info-spec">%appdata%</span>. Find the <span class="info-spec">.minecraft</span> folder, and click on it. Drag the downloaded, unzipped map into the saves folder and the map is installed!</div>
+			<div class="info-subtitle">Generators</div>
+			<div class="info-p">All generators for any game can be found under the <span class="info-spec">tools</span> tab, in the toolbar at the top of the page.</div>
+			<div class="info-subtitle">Single command Vanilla mods</div>
+			<div class="info-p">Any vanilla mods that I make with my <a href="http://mrgarretto.com/onecommand">command combiner</a> will be featured under the <span class="info-spec">projects</span> tab, in the toolbar at the top of the page.</div>
+			<div class="info-subtitle">Outside links</div>
+			<div class="info-p">The <span class="info-spec">outside links</span> section, under the <span class="info-spec">random</span> tab in the toolbar at the top of the page, will feature any pages outside of this website that I would recommend checking out.</div>
+		</div>
+	</div>
+	-->
+	<style>
+
+			#footer-main{margin-top:20px;font-size:14px;width:100%;padding-bottom:30px;background-color:#262626;border-top:5px solid #222;font-family:'Asap',sans-serif;color:#CCC;text-align:center;visibility:visible;z-index:900;bottom:0;left:0}
+
+			.footer-column{display:inline-block;margin-top:0;margin-left:30px;margin-right:30px;vertical-align:top}
+			#footer-main p{font-size:1.2em}
+			#footer-main h3{font-size:1.6em;font-weight:700}
+			#footer-main a{color:#2D6AA5;-o-transition:.3s;-ms-transition:.3s;-moz-transition:.3s;-webkit-transition:.3s;transition:.3s}
+			#footer-main a:hover{color:#5788B7;margin-left:10px;border-bottom:2px solid #5788B7}
+			.footer-bottom{margin-left:auto;margin-right:auto;margin-top:10px;width:600px;padding-top:10px;border-top:2px solid #2F2F2F;color:#B2B2B2}
+	</style>
+	<div id="footer-main">
+		
+
+
+		<div class="footer-column">
+			<h3>Author</h3>
+			<p>Site created by MadsMTM and TheThorworks</p>
+			<h3>Credits</h3>
+			<p>MrGarretto (This site is based on his)</p>
+		</div>
+		<div class="footer-column">
+			<h3>Twitter</h3>
+			<p><img src="./CubesElementory_files/twitter.png" height="10px" width="10px" style="margin-right: 8px;"><a href="https://twitter.com/thoragwinther">@thoragwinther</a></p>
+			<h3>Minecraft Forums</h3>
+			<p><a href="http://www.minecraftforum.net/members/CubesElementory">CubesElementory</a></p>
+		</div>
+		<div class="footer-bottom">
+			<h3>About</h3>
+			<p>There should be some pretty long text here explaining that we do not own minecraft and that we only want fun and all that so here will just be a Lorem ipsum dolor sit amet, amet nisl egestas lorem eu non.</p>
+		</div>
+
+		<div class="footer-bottom"><p>This website is not endorsed, associated or affiliated with Mojang AB</p></div>
+	</div>
+	
+
+</body>
+</html>
