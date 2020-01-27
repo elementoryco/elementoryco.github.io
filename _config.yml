@@ -10,11 +10,6 @@ exclude:
 - README.md
 - LICENSE.txt
 - Gemfile*
-- .travis.yml
-- vendor
-
-include:
-- .gitignore
 
 permalink: /:slug/
 
