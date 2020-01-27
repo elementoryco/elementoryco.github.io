@@ -2,16 +2,14 @@
 layout: default
 ---
 
-{%- include vars.inc -%}
-
 {%- include author_block.html size=100 -%}
 
 <div class="descriptionText">
-{{- content -}}
+    {{- content -}}
 </div>
 
 <div class="about_links">
-	{%- for link in page.links -%}
+	{%- for link in page.author.links -%}
 	<a class="link" href="{{ link.url }}">
 		<img src="{{ link.image | relative_url }}">
 		<span>{{ link.name }}</span>

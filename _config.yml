@@ -7,37 +7,67 @@ exclude:
 - LICENSE.txt
 - Gemfile*
 
-permalink: /:slug/
-
-
-collections:
-  peter:
-    output: true
-    permalink: /:collection/:path
-  oliver:
-    output: true
-    permalink: /:collection/:path
-  thor:
-    output: true
-    permalink: /:collection/:path
+permalink: /:path/
 
 
 defaults:
 -
   scope:
-    path: _oliver/p
-    type: oliver
+    path: "*/p"
+    scope: pages
   values:
     layout: post
+
 -
   scope:
-    path: _peter/p
-    type: peter
+    path: oliver
   values:
-    layout: post
+    author:
+      name: Oliver
+      image: /assets/images/oliver.jpg
+      tags:
+      -
+        url: /tags/taga
+        name: Tag A
+      -
+        url: /tagb
+        name: And tag B
+      links:
+      -
+        name: Email
+        url: mailto:oliversolow@gmail.com
+        image: /assets/images/lettericon.png
+
 -
   scope:
-    path: _thor/p
-    type: thor
+    path: peter
+  values:
+    author:
+      name: Peter
+      image: /assets/images/peter.jpg
+      tags:
+      -
+        url: /petertag
+        name: Tag
+
+-
+  scope:
+    path: thor
   values:
     layout: post
+    author:
+      name: Thor
+      image: /assets/images/thor.png
+      tags:
+      -
+        url: /tagc
+        name: Tag C
+      links:
+      -
+        name: Email
+        url: mailto:thor.ag.winther@gmail.com
+        image: /assets/images/lettericon.png
+      -
+        name: Instragram
+        url: http://www.instagram.com/thor.ag.winther/
+        image: /assets/images/ig_logo.png

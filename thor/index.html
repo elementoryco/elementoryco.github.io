@@ -13,10 +13,8 @@ social_links:
   name: Instragram
 ---
 
-{%- include vars.inc -%}
-
 <div class="simplepage">
-	<img src="{{ author.image | relative_url }}" class="image">
+	<img src="{{ page.author.image | relative_url }}" class="image">
 	<div class="container">
 		<div class="title">
 			<h1 class="main">My page</h1>

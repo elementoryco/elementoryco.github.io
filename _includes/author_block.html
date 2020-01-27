@@ -1,17 +1,13 @@
-{%- include vars.inc -%}
-
-{% if author %}
 <div class="author_block">
-	<img src="{{ author.image | relative_url }}" class="image" alt="Photo of {{ author.name }}">
+	<img src="{{ page.author.image | relative_url }}" class="image" alt="Photo of {{ page.author.name }}">
 
 	<div class="holder">
-		<div class="name" style="font-size: {{ include.size | default: 100 }}px">{{ author.name }}</div>
+		<div class="name" style="font-size: {{ include.size | default: 100 }}px">{{ page.author.name }}</div>
 		<div class="line"></div>
 		<div class="tag_holder">
-		{% for tag in author.tags %}
+		{% for tag in page.author.tags %}
 			<a class="tag" href="{{ tag.url | relative_url }}">{{ tag.name }}</a>
 		{% endfor %}
 		</div>
 	</div>
 </div>
-{% endif %}
