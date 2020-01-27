@@ -2,10 +2,6 @@ title: Elementory
 
 timezone: Europe/Copenhagen
 
-stylus:
-  compress: false
-  path: css
-
 exclude:
 - README.md
 - LICENSE.txt

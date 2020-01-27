@@ -1,0 +1,73 @@
+.author_block {
+	.image {
+		border-radius: 50%;
+		vertical-align: middle;
+		display: inline;
+		width: 200px;
+	}
+
+	.holder {
+		display: inline-block;
+		margin-left: 1%;
+		vertical-align: middle;
+
+		.name {
+			// margin:; 0 auto;
+			font-family: futura;
+			font-style: italic;
+			line-height: 1em;
+		}
+
+		.line {
+			//margin-top: 0%;
+			//border: 1px solid black;
+			width: 150%;
+			height: 0.15em;
+			background-color: black;
+		}
+
+		.tag {
+			margin-top: 10px;
+			margin-right: 10px;
+			margin-bottom: 30px;
+			background-color: #cbcbcb;
+			color: white;
+			padding: 7px 12.5px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-family: futura;
+			font-style: italic;
+			&:hover {
+				background-color: #a7a7a7;
+			}
+		}
+	}
+}
+
+.descriptionText {
+	font-family: futura;
+	font-size: 20px;
+	font-style: italic;
+	width: 600px;
+	margin-bottom: 20px;
+}
+
+.about_links {
+	.link {
+		font-style: italic;
+		font-family: futura;
+		text-decoration: none;
+		color: black;
+		line-height: 1em;
+		vertical-align: middle;
+		span {
+			margin-top: 10px;
+			font-size: 20px;
+		}
+		img {
+			width: 30px;
+			vertical-align: middle;
+		}
+	}
+}
