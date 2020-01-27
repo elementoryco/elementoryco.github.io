@@ -1,0 +1,94 @@
+    /* Header */
+    body
+    {margin:auto;max-width:1100px;width:1100px;background-image:url(Sitebottom.png);background-repeat:repeat-x;background-position:bottom;min-height:800px;}
+    div.header
+    {margin:auto;width:900px;}
+    ul.menu
+    {list-style-type:none;margin:0;padding:0;overflow:hidden;margin:auto;width:150px;}
+    a.Home,a.Thor,a.Mads,a.Oliver,a.Login,a.Derp,a.Home1,a.Thor1,a.Mads1,a.Oliver1,a.Login1,a.Derp1
+    {display:block;max-width:150px;min-width:150px;height:36px;font-weight:bold;color:#FFFFFF;text-align:center;padding:0px;text-decoration:none;text-transform:uppercase;font-size:30px;font-family:"Andale Mono", sans-serif;}
+
+
+    a:link.Home,a:visited.Home
+    {width:150px;height:36px;background:url(bar.png) 0px 0px;opacity:0.8;filter:alpha(opacity=80);}
+    a:link.Thor,a:visited.Thor
+    {width:150px;height:36px;background:url(bar.png) -150px 0px;opacity:0.8;filter:alpha(opacity=80);}
+    a:link.Mads,a:visited.Mads
+    {width:150px;height:36px;background:url(bar.png) -300px 0px;opacity:0.8;filter:alpha(opacity=80);}
+    a:link.Oliver,a:visited.Oliver
+    {width:150px;height:36px;background:url(bar.png) -450px 0px;opacity:0.8;filter:alpha(opacity=80);}
+    a:link.Login,a:visited.Login
+    {width:150px;height:36px;background:url(bar.png) -600px 0px;opacity:0.8;filter:alpha(opacity=80);}
+    a:link.Derp,a:visited.Derp
+    {width:150px;height:36px;background:url(bar.png) -750px 0px;opacity:0.8;filter:alpha(opacity=80);}
+
+
+    a:hover.Home,a:active.Home
+    {opacity:0.6;filter:alpha(opacity=60);}
+    a:hover.Thor,a:active.Thor
+    {opacity:0.6;filter:alpha(opacity=60);}
+    a:hover.Mads,a:active.Mads
+    {opacity:0.6;filter:alpha(opacity=60);}
+    a:hover.Oliver,a:active.Oliver
+    {opacity:0.6;filter:alpha(opacity=60);}
+    a:hover.Login,a:active.Login
+    {opacity:0.6;filter:alpha(opacity=60);}
+    a:hover.Derp,a:active.Derp
+    {opacity:0.6;filter:alpha(opacity=60);}
+
+
+    a.Home1
+    {width:150px;height:36px;background:url(bar.png) 0px 0px;}
+    a.Thor1
+    {width:150px;height:36px;background:url(bar.png) -150px 0px;}
+    a.Mads1
+    {width:150px;height:36px;background:url(bar.png) -300px 0px;}
+    a.Oliver1
+    {width:150px;height:36px;background:url(bar.png) -450px 0px;}
+    a.Login1
+    {width:150px;height:36px;background:url(bar.png) -600px 0px;}
+    a.Derp1
+    {width:150px;height:36px;background:url(bar.png) -750px 0px;}
+
+
+    .trigger ul.menu
+    {width:150px;display:none;position:absolute;margin:0 auto;padding-top:36px;list-style:none;}
+    .trigger:hover ul.menu
+    {display:block;}
+    li.trigger
+    {float:left;border:none;}
+    ul.header
+    {list-style-type:none;margin:0;padding:0;overflow:hidden;margin:auto;width:900px;}
+    li.lit
+    {width:150px;height:20px;text-decoration:none;background-color:#808080;opacity:0.8;filter:alpha(opacity=80);}
+    li.lit a
+    {display:block;width:150px;height:20px;font-weight:bold;color:#FFFFFF;text-align:center;padding:0px;text-decoration:none;text-transform:uppercase;font-size:20px;font-family:"Andale Mono", sans-serif;}
+    li:hover.lit,li:active.lit
+    {opacity:0.6;filter:alpha(opacity=60);}
+    li.lit1
+    {opacity:1;filter:alpha(opacity=100);}
+    /* End Header*/
+
+
+
+    /* Oliver Things */
+
+    .center
+    {text-align:center}
+    .asdf
+    {color:#18183D;}
+
+    /* End Oliver Things */
+
+
+
+    /* Thor Things */
+
+    .something
+    {wdhbj}
+
+    /* End Thor Things */
+
+
+
+

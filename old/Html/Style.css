@@ -1,0 +1,14 @@
+    .center
+    {margin:auto;width:840px;}
+    ul
+    {list-style-type:none;margin:0;padding:0;overflow:hidden;}
+    li
+    {float:left;}
+    a:link.header
+    {display:block;width:130px;height:36px;font-weight:bold;color:#FFFFFF;background-image:bar.png;text-align:center;padding:5px;text-decoration:none;text-transform:uppercase;font-size:30px;text-align:center;font-family:"Times New Roman", Times, serif;}
+    a:visited.header
+    {display:block;width:130px;height:36px;font-weight:bold;color:#FFFFFF;background-image:bar.png;text-align:center;padding:5px;text-decoration:none;text-transform:uppercase;font-size:30px;text-align:center;font-family:"Times New Roman", Times, serif;}
+    a:hover.header
+    {background-color:#AAAAAA}
+    a:active.header
+    {background-color:#AAAAAA}

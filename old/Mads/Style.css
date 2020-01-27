@@ -1,0 +1,203 @@
+.Loader
+{
+	border-radius:100%;
+	width:25%;
+	height:25%;
+	background-color:#303030;
+	position:relative;
+}
+
+.button
+{
+	border-width:2px;
+	border-radius:5px;
+	border-color:#000000;
+	color:#505050;
+}
+
+#box
+{
+	width:400px;
+	height:400px;
+	border-radius:100%;
+}
+
+@-webkit-keyframes rotater
+{
+	0% {background-color:#303030;}
+	30% {background-color:#A0A0A0;}
+	100% {background-color:#303030;}
+}
+
+
+.Loader1
+{
+	left:37.5%;
+	top:37.5%;
+	-webkit-animation:One 1.5s ease-in 0s 1;}
+
+@-webkit-keyframes One
+{
+	0% {left:37.5%;top:37.5%;}
+	100% {left:64%;top:64%;}
+}
+
+.Loader11
+{
+	left:64%;
+	top:64%;
+	-webkit-animation:rotater 2s linear 0.75s infinite;
+}
+
+
+
+.Loader2
+{
+	left:37.5%;
+	top:12.5%;
+	-webkit-animation:Two 1.5s ease-in 0s 1;
+}
+
+@-webkit-keyframes Two
+{
+	0% {left:37.5%;}
+	100% {left:75%;}
+}
+
+.Loader22
+{
+	top:12.5%;
+	left:75%;
+	-webkit-animation:rotater 2s linear 0.5s infinite;
+}
+
+
+
+.Loader3
+{
+	left:37.5%;
+	top:-12.5%;
+	-webkit-animation:Three 1.5s ease-in 0s 1;
+}
+
+@-webkit-keyframes Three
+{
+	0% {left:37.5%;top:-12.5%;}
+	100% {left:64%;top:-39%;}
+}
+
+.Loader33
+{
+	left:64%;
+	top:-39%;
+	-webkit-animation:rotater 2s linear 0.25s infinite;
+}
+
+
+
+.Loader4
+{
+	left:37.5%;
+	top:-37.5%;
+	-webkit-animation:Four 1.5s ease-in 0s 1;
+}
+
+@-webkit-keyframes Four
+{
+	0% {top:-37.5%;}
+	100% {top:-75%;}}
+
+.Loader44
+{
+	left:37.5%;
+	top:-75%;
+	-webkit-animation:rotater 2s linear 0s infinite;
+}
+
+
+
+.Loader5
+{
+	left:37.5%;
+	top:-62.5%;
+	-webkit-animation:Five 1.5s ease-in 0s 1;
+}
+
+@-webkit-keyframes Five
+{
+	0% {left:37.5%;top:-62.5%;}
+	100% {left:11%;top:-89%;}
+}
+
+.Loader55
+{
+	left:11%;
+	top:-89%;
+	-webkit-animation:rotater 2s linear 1.75s infinite;
+}
+
+
+
+.Loader6
+{
+	left:37.5%;
+	top:-87.5%;
+	-webkit-animation:Six 1.5s ease-in 0s 1;
+}
+
+@-webkit-keyframes Six
+{
+	0% {left:37.5%;}
+	100% {left:0%;}
+}
+
+.Loader66
+{
+	left:0%;
+	top:-87.5%;
+	-webkit-animation:rotater 2s linear 1.5s infinite;
+}
+
+
+
+.Loader7
+{
+	left:37.5%;
+	top:-112.5%;
+	-webkit-animation:Seven 1.5s ease-in 0s 1;
+}
+
+@-webkit-keyframes Seven
+{
+	0% {left:37.5%;top:-112.5%;}
+	100% {left:11%;top:-86%;}
+}
+
+.Loader77
+{
+	left:11%;
+	top:-86%;
+	-webkit-animation:rotater 2s linear 1.25s infinite;
+}
+
+
+
+.Loader8
+{
+	left:37.5%;
+	top:-137.5%;
+	-webkit-animation:Eight 1.5s ease-in 0s 1;
+}
+
+@-webkit-keyframes Eight
+{
+	0% {top:-137%;}
+	100% {top:-100%;}
+}
+
+.Loader88
+{
+	left:37.5%;
+	top:-100%;
+	-webkit-animation:rotater 2s linear 1s infinite;
+}

@@ -1,0 +1,16 @@
+img.Header1{
+    width:100%;
+    max-height:30%;
+}
+
+div.Header1:active{
+	position:relative;
+	-webkit-animation:myfirst 1s; /* Chrome, Safari, Opera */
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst
+{
+	0%   {top:0px;}
+	100% {top:-1000px;}
+}

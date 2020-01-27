@@ -1,0 +1,43 @@
+    body
+      {margin:auto;max-width:900px;width:900px;background-image:url(bottom.png);background-repeat:repeat-x;background-position:bottom;min-height:1000px;}
+
+
+    /* Header */
+
+    div.header
+      {margin:auto;width:900px;padding-top:-20px;padding-left:225px;}
+    ul.menu
+      {list-style-type:none;margin:0;padding:0;overflow:hidden;margin:auto;width:225px;}
+    a.HQM
+      {display:block;max-width:225px;min-width:225px;height:30px;font-weight:bold;color:#5C5C5C;text-align:center;padding:0px;text-decoration:none;text-transform:uppercase;font-size:30px;font-family:"Andale Mono", sans-serif;}
+    a.HQM1
+      {display:block;max-width:225px;min-width:225px;height:80px;font-weight:bold;color:#5C5C5C;text-align:center;padding:0px;text-decoration:none;text-transform:uppercase;font-size:30px;font-family:"Andale Mono", sans-serif;}
+
+    a:link.HQM,a:visited.HQM
+      {width:225px;height:30px;opacity:1;filter:alpha(opacity=100);}
+    a:link.HQM1,a:visited.HQM1
+      {width:225px;height:80px;background:url(bar.png) 0px 0px;opacity:1;filter:alpha(opacity=100);}
+
+
+    a:hover.HQM,a:hover.HQM
+      {width:225px;height:30px;opacity:0.6;filter:alpha(opacity=60);}
+    a:active.HQM1,a:active.HQM1
+      {width:225px;height:80px;opacity:0.6;filter:alpha(opacity=60);}
+
+
+    .trigger ul.menu
+      {width:225px;display:none;position:absolute;margin:0 auto;padding-top:40px;list-style:none;}
+    .trigger:hover ul.menu
+      {display:block;}
+    li.trigger
+      {float:left;border:none;}
+    ul.header
+      {list-style-type:none;margin:0;padding:0;overflow:hidden;margin:auto;width:900px;}
+    li.Underthing
+      {width:225px;height:30px;text-decoration:none;background-color:#FFFFFF;opacity:1;filter:alpha(opacity=100);border-width:1px;border-color:#999999}
+    li.Underthing a
+      {display:block;width:225px;height:30px;font-weight:bold;color:#5C5C5C;text-align:center;padding:0px;text-decoration:none;text-transform:uppercase;font-size:30px;font-family:"Andale Mono", sans-serif;border-width:1px;border-color:#999999}
+    li:hover.Underthing,li:active.Underthing
+      {opacity:0.6;filter:alpha(opacity=60);}
+
+    /* End Header */

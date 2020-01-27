@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0094)http://www.shingokko.com/resource/blog-entry/pure-css-hover-menu/hover-menu-sample-working.htm -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>Pure CSS Hover Menu</title>
+    <style type="text/css">
+        body
+        {
+            margin: 0;
+            font: small Georgia, "Times New Roman";
+            background: #695544 url('hover-menu-sample-background.gif');
+            color: #444;
+        }
+        a
+        {
+            color: #3d1c0b;
+        }
+        #wrapper { width: 300px; margin: 0 auto; }
+        a:hover
+        {
+            color: #995534;
+        }
+        #product-header
+        {
+            background: transparent url('hover-menu-sample-glass-panel-top.png') no-repeat center;
+            height: 28px;
+        }
+        #product-footer
+        {
+            background: transparent url('hover-menu-sample-glass-panel-bottom.png') no-repeat center;
+            height: 28px;
+        }
+        ul#product
+        {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            background: transparent url('hover-menu-sample-glass-panel-body.png') repeat-y center;
+        }
+        ul#product li span
+        {
+        	padding-left: 2em;
+        }
+        ul#product li.trigger
+        {
+            padding: .4em;
+        }
+        /* ul#product hover menu position override */
+        ul#product .trigger ul.menu
+        {
+            margin-top: 1.2em;
+            margin-left: 5em;
+        }
+        /* ++ Hover menu styles */
+        .trigger ul.menu
+        {
+            display: none;
+            position: absolute;
+            margin: 0;
+            padding: .4em;
+            list-style: none;
+            background: transparent url('hover-menu-sample-glass-panel-body.png') repeat-y center;
+            border: solid 1px #ccc;
+        }
+        .trigger ul.menu li
+        {
+            padding: .1em .5em;
+        }
+        .trigger ul.menu li a
+        {
+            display: block;
+        }
+        .trigger:hover
+        {
+            background: transparent url('hover-menu-sample-glass-panel-body-selected.png') no-repeat center;
+        }
+        .trigger:hover ul.menu
+        {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <h1>Coffees</h1>
+        <div id="product-header"></div>
+        <ul id="product">
+            <li class="trigger">
+                <ul class="menu">
+                    <li><a href="javascript:;">View</a> </li>
+                    <li><a href="javascript:;">Edit</a> </li>
+                    <li><a href="javascript:;">Delete</a> </li>
+                </ul>
+                <span>Flat White</span> </li>
+            <li class="trigger">
+                <ul class="menu">
+                    <li><a href="javascript:;">View</a> </li>
+                    <li><a href="javascript:;">Edit</a> </li>
+                    <li><a href="javascript:;">Delete</a> </li>
+                </ul>
+                <span>Cappuccino</span> </li>
+            <li class="trigger">
+                <ul class="menu">
+                    <li><a href="javascript:;">View</a> </li>
+                    <li><a href="javascript:;">Edit</a> </li>
+                    <li><a href="javascript:;">Delete</a> </li>
+                </ul>
+                <span>Macchiato</span> </li>
+            <li class="trigger">
+                <ul class="menu">
+                    <li><a href="javascript:;">View</a> </li>
+                    <li><a href="javascript:;">Edit</a> </li>
+                    <li><a href="javascript:;">Delete</a> </li>
+                </ul>
+                <span>Mochaccino</span> </li>
+            <li class="trigger">
+                <ul class="menu">
+                    <li><a href="javascript:;">View</a> </li>
+                    <li><a href="javascript:;">Edit</a> </li>
+                    <li><a href="javascript:;">Delete</a> </li>
+                </ul>
+                <span>Expresso</span> </li>
+        </ul>
+        <div id="product-footer"></div>
+    </div>
+    <!-- GOOGLE ANALYTICS CODE - DO NOT COPY THIS -->
+    <script type="text/javascript" async="" src="./Pure CSS Hover Menu_files/ga.js"></script><script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-5009046-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+    var ga = document.createElement('script'), s;
+    ga.type = 'text/javascript';
+    ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ga, s);
+}());
+    </script>
+    <!-- GOOGLE ANALYTICS CODE - DO NOT COPY THIS -->
+
+</body></html>

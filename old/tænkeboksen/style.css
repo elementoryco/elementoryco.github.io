@@ -1,0 +1,51 @@
+a {
+  font-family: Georgia;
+  font-weight:600;
+  font-style: italic;
+  margin-bottom: 0px;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+}
+p.dato {
+  font-family: Courier;
+  font-size: 14px;
+  width: 500px;
+}
+img {
+  box-shadow: 0 0 2rem 0 gray;
+}
+hr {
+  color: #000;
+  background-color: #000;
+  height: 1px;
+  border: 0;
+  margin-left: 0px;
+  width: 40%;
+}
+hr.new {
+  color: #000;
+  background-color: #000;
+  height: 1px;
+  margin-left: 0px;
+}
+
+div.post {
+  padding-left: 23%;
+}
+p {
+  font-family: Georgia;
+  font-style: italic;
+}
+p.citat {
+  color: black;
+  text-decoration: none;
+  /*border-left: 1px solid black;
+  border-right: 1px solid black;*/
+  font-family: courier new;
+  padding: 2px;
+  display: inline;
+  font-style: inherit;
+  font-size: 14px;
+}

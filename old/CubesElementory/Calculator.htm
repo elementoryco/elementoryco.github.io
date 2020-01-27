@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculator</title>
+		<meta name="description" content="Calculator - CubesElementory">
+		<meta name="keywords" content="CubesElementory,Calculator,free calculator,good calculator">
+		<meta name="author" content="MadsMTM,OliverTheTinker,TheThorWorks">
+		<link rel="stylesheet" type="text/css" href="Style.css">
+		<script type="text/javascript" src="Calculator.js"></script>
+	</head>
+	<body>
+
+		<!--Calculator-->
+        <table style="width:300px;" cellspacing="0px" border="2px">
+        	<tr>
+        		<td colspan="2"><h1 style="text-align:center;">Calculator</h1></td>
+        	</tr>
+        	<tr>
+        		<td style="width:150px;text-align:center;">
+					<input id="a" maxlength="9" style="width:100px;text-align:center;margin:0 auto;" value="10" />
+					<p style="text-align:center;font-size:25px;" id="indicator">+</p>
+					<input id="b" maxlength="9" style="width:100px;text-align:center;margin:0 auto;" value="5" />
+		    		<br>
+		    		<br>
+					<div style="text-align:center;" id="change">
+						<button style="width:50px;height:30px;font-size:25px;" onclick='plus()'>=</button>
+					</div>
+					<p id="sum" style="text-align:center;max-width:150px;">15</p>
+				</td>
+				<td style="width:150px;text-align:center;">
+					<button style="width:30px;height:30px;font-size:25px;" onclick="pbut()">+</button><br><br>
+					<button style="width:30px;height:30px;font-size:25px;" onclick="mibut()">-</button><br><br>
+					<button style="width:30px;height:30px;font-size:25px;" onclick="dbut()">/</button><br><br>
+					<button style="width:30px;height:30px;font-size:25px;" onclick="mubut()">*</button>
+				</td>
+			</tr>
+		</table>
+		<!--End Calculator--><br><br><br>
+	</body>
+</html>
